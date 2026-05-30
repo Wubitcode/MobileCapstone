@@ -1,8 +1,10 @@
 1. Introduction
+
+   
 Online scams are becoming more common through SMS messages, emails, fake job offers, phishing websites, and scam phone calls. Many users cannot easily recognize suspicious communication before financial or personal damage occurs.
 This capstone project proposes a mobile application called CyberShield AI that helps users detect and analyze suspicious messages, links, and fake job offers. The application will work on both Android and iOS using React Native and Firebase.
 The app will classify messages as Safe, Suspicious, or High Risk using rule-based scam detection and pattern analysis. It will also explain why content appears suspicious to improve cybersecurity awareness and help users better understand online scams.
-2. General Functionality
+3. General Functionality
 The following are the core planned features for the application:
 •	Cross-platform mobile app for Android and iOS
 •	User-friendly interface designed in React Native
@@ -17,7 +19,7 @@ The following are the core planned features for the application:
 •	Scam awareness and cybersecurity tips section
 •	Community scam phone number reporting (future enhancement)
 •	Screenshot OCR scam analysis (future enhancement)
-3. Technologies and Frameworks
+4. Technologies and Frameworks
 The project will use the following technologies:
 Technology	Purpose
 
@@ -28,11 +30,14 @@ Firestore	              Store scam reports and scan history
 JavaScript	              Detection logic and frontend functionality
 GitHub	             Version control and project management
 Expo	              Simplified mobile development and testing
+
 4. Problem Being Solved
+   
 Many users receive scam messages every day but are unable to determine whether they are safe or dangerous. Scammers often create realistic fake job offers, banking alerts, delivery notifications, and account verification requests that pressure users into clicking malicious links or sending money.
 CyberShield AI addresses this issue by giving users a mobile tool that analyzes suspicious communication and provides understandable explanations of scam indicators such as urgency, requests for money, suspicious links, impersonation, or emotional manipulation tactics.
 
-5. Development Plan
+6. Development Plan
+   
 The project will be developed incrementally using GitHub Projects and Agile development practices.
 Planned Development Stages
 1.	Requirement analysis and UI planning
@@ -46,6 +51,7 @@ Planned Development Stages
 9.	Prepare final presentation and demo video
 
 6. Expected Outcome
+   
 The expected outcome is a working mobile application prototype that demonstrates practical scam detection functionality and cybersecurity awareness features. The final prototype will allow users to test suspicious text messages and links while receiving understandable risk analysis and security recommendations.
 
 This project will also strengthen skills in:
@@ -57,9 +63,12 @@ This project will also strengthen skills in:
 •	Problem-solving and debugging
 
 7. Conclusion
+
+   
 CyberShield AI is a cybersecurity-focused mobile application designed to help users identify and understand online scams using a simple and accessible interface. By combining scam detection logic, explainable analysis, and cross-platform mobile development, the application aims to provide a practical real-world solution for improving cybersecurity awareness and reducing scam-related risks for everyday users.
 
-APP SCAFFOLDING LOOKS LIKE
+APP SCAFFOLDING LOOKS 
+
 CyberShieldAI/
 │
 ├── app/
